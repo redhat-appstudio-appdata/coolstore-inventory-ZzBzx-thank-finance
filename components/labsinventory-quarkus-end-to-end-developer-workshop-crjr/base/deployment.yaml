@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: labsinventory-quarkus-end-to-end-developer-workshop-crjr
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:ZzBzx-labsinventory-quarkus-end-to-end-developer-workshop-crjr
+      - image: quay.io/redhat-appstudio/user-workload@sha256:62111cd5bcf106458c8b6ee48395ade7e1a6c74429c4445ea85db3276961a53f
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

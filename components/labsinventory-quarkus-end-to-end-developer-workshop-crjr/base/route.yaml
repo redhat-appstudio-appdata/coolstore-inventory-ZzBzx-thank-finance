@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: labsinventory-quarkus-end-to-end-developer-workshop-crjr
     app.kubernetes.io/part-of: coolstore-inventory
-  name: labsinventory-quarkus-endzvih
+  name: labsinventory-quarkus-endcnvo
   namespace: agroom-tenant
 spec:
   port:
