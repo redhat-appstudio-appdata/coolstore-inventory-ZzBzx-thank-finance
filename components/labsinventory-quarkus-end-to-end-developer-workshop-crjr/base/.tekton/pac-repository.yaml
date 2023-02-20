@@ -1,0 +1,15 @@
+apiVersion: pipelinesascode.tekton.dev/v1alpha1
+kind: Repository
+metadata:
+  annotations:
+    appstudio.openshift.io/application: coolstore-inventory
+    appstudio.openshift.io/component: labsinventory-quarkus-end-to-end-developer-workshop-crjr
+    build.appstudio.openshift.io/build: "true"
+    build.appstudio.openshift.io/type: build
+    build.appstudio.openshift.io/version: "0.1"
+    pipelines.appstudio.openshift.io/type: build
+  creationTimestamp: null
+  name: labsinventory-quarkus-end-to-end-developer-workshop-crjr
+  namespace: agroom-tenant
+spec:
+  url: https://github.com/RedHat-EMEA-SSA-Team/end-to-end-developer-workshop
