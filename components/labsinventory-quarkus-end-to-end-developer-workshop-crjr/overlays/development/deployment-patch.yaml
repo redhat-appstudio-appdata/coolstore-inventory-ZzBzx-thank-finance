@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: labsinventory-quarkus-end-to-end-developer-workshop-crjr
+  namespace: agroom-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:62111cd5bcf106458c8b6ee48395ade7e1a6c74429c4445ea85db3276961a53f
+        name: container-image
+        resources: {}
+status: {}
